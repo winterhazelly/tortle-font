@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      2.2
+@version      2.5
 @author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/Mynotaurus/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -69,7 +69,7 @@
     
     /*EVERYTHING BELOW IS WEATHER ICONS*/
     
-    div[aria-label="Coffee 2 Weather"],div[aria-label="Coffee 3 Weather"],div[aria-label="Solar Eclipse Weather"],#Coffee,#Glitter,#Blooddrain,#Flooding,#Feedback,#Peanuts,#Birds,#Reverb,div[aria-label="Sun Two Weather"] {
+    div[aria-label="Coffee 2 Weather"],div[aria-label="Coffee 3 Weather"],div[aria-label="Solar Eclipse Weather"],div[aria-label="Supernova Eclipse Weather"],#Coffee,#Jazz,#Glitter,#Blooddrain,#Flooding,#Feedback,#Peanuts,#Birds,#Reverb,div[aria-label="Sun Two Weather"],div[aria-label="Black Hole Weather"] {
         background: #00000000 !important;
         width: auto;
         padding: 2px;
@@ -93,6 +93,10 @@
     
     div[aria-label="Solar Eclipse Weather"] {
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/eclipse.png);
+    }
+    
+    div[aria-label="Supernova Eclipse Weather"] {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/supernova%20eclipse.png);
     }
     
     #Blooddrain {
@@ -119,12 +123,20 @@
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/reverb.png);
     }
     
+    #Jazz {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/jazz.png);
+    }
+    
     #Salmon {
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/salmon.png);
     }
     
     div[aria-label="Sun Two Weather"] {
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/sun2.png);
+    }
+    
+    div[aria-label="Black Hole Weather"] {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/hole.png);
     }
     
     .WeatherIcon-Twirl {
