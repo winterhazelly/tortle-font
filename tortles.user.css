@@ -41,7 +41,9 @@
     }
 
     .Standings-Team-Emoji,
-    .Standings-Team-Color,
+    .Standings-Team-Color {
+        scale: 1.2;
+    }
     .GameWidget-ScoreTeamColorBar,
     .Leaderboard-Team-Emoji,
     .Team-Logo,
@@ -57,7 +59,8 @@
     .BossFightWidget-ScoreTeamColorBar,
     .DepthChart-Team,
     .DepthChart-Lists-Emoji,
-    .GiftShop-Gifts-TeamLogo {
+    .GiftShop-Gifts-TeamLogo,
+    .Player-Team-Emoji {
         scale: 1.5;
     }
 }
