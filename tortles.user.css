@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      2.7.0
+@version      2.7.1
 @author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/Mynotaurus/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -69,7 +69,7 @@
     
     /*EVERYTHING BELOW IS WEATHER ICONS*/
     
-    div[aria-label="Coffee 2 Weather"],div[aria-label="Coffee 3 Weather"],div[aria-label="Solar Eclipse Weather"],div[aria-label="Supernova Eclipse Weather"],#Coffee,#Jazz,#Salmon,#Glitter,#Blooddrain,#Flooding,#Feedback,#Peanuts,#Birds,#Reverb,div[aria-label="Sun Two Weather"],div[aria-label="Black Hole Weather"] {
+    div[aria-label="Coffee 2 Weather"],div[aria-label="Coffee 3s Weather"],div[aria-label="Solar Eclipse Weather"],div[aria-label="Supernova Eclipse Weather"],#Coffee,#Jazz,#Salmon,#Glitter,#Blooddrain,#Flooding,#Feedback,#Peanuts,#Birds,#Reverb,div[aria-label="Sun Two Weather"],div[aria-label="Black Hole Weather"] {
         background: #00000000 !important;
         width: auto;
         padding: 2px;
@@ -87,7 +87,7 @@
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee%202.png);
     }
     
-    div[aria-label="Coffee 3 Weather"] {
+    div[aria-label="Coffee 3s Weather"] {
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee%203.png);
     }
     
