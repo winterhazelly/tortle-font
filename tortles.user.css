@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      2.1.6
+@version      2.2
 @author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/Mynotaurus/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -9,11 +9,11 @@
 
 /*IF YOU ARE READING THIS YOU NEED STYLUS TO INSTALL THIS CONTENT https://github.com/openstyles/stylus*/
 
+@font-face {
+    font-family: tortles;
+    src: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/Tortles-Regular-SVG.otf);
+}
 @-moz-document domain("blaseball.com") {
-    @font-face {
-        font-family: tortles;
-        src: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/Tortles-Regular-SVG.otf);
-    }
 
     .Standings-Team-Emoji,
     .Standings-Team-Color,
@@ -66,4 +66,74 @@
     .Player-Team-Emoji {
         scale: 1.5;
     }
+    
+    /*EVERYTHING BELOW IS WEATHER ICONS*/
+    
+    div[aria-label="Coffee 2 Weather"],div[aria-label="Coffee 3 Weather"],div[aria-label="Solar Eclipse Weather"],#Coffee,#Glitter,#Blooddrain,#Flooding,#Feedback,#Peanuts,#Birds,#Reverb,div[aria-label="Sun Two Weather"] {
+        background: #00000000 !important;
+        width: auto;
+        padding: 2px;
+    }
+    
+    #Coffee {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee1.png);
+    }
+    
+    #Glitter {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/glitter.png);
+    }
+    
+    div[aria-label="Coffee 2 Weather"] {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee%202.png);
+    }
+    
+    div[aria-label="Coffee 3 Weather"] {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee%203.png);
+    }
+    
+    div[aria-label="Solar Eclipse Weather"] {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/eclipse.png);
+    }
+    
+    #Blooddrain {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/blooddrain.png);
+    }
+    
+    #Flooding {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/flood.png);
+    }
+    
+    #Feedback {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/feedback.png);
+    }
+    
+    #Peanuts {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/peanut_1.png);
+    }
+    
+    #Birds {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/birds.png);
+    }
+    
+    #Reverb {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/reverb.png);
+    }
+    
+    #Salmon {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/salmon.png);
+    }
+    
+    div[aria-label="Sun Two Weather"] {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/sun2.png);
+    }
+    
+    .WeatherIcon-Twirl {
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/hole.png);
+        width: 38px;
+        height: 30px;
+        background: #00000000 !important;
+    }
+    
+    /*END OF WEATHER ICONS*/
+    
 }
