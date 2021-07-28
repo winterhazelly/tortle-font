@@ -1,0 +1,63 @@
+/* ==UserStyle==
+@name         Blaseball Emoji Fix [+ Tortles]
+@namespace    holmesmr.github
+@version      2.1.2
+@author       cepheus (https://github.com/holmesmr)
+@homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
+@license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+==/UserStyle== */
+@-moz-document domain("blaseball.com") {
+    @font-face {
+        font-family: tortles;
+        src: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/7d1ebdc8e74978afe0d46b403f07b9ceb109ec60/Tortles-Regular-SVG.otf);
+    }
+
+    .Standings-Team-Emoji,
+    .Standings-Team-Color,
+    .GameWidget-ScoreTeamColorBar,
+    .Leaderboard-Team-Emoji,
+    .Leaderboard-Team-Color,
+    .Navigation-FavoriteTeamEmoji,
+    .Team-Logo,
+    .Player-Team-Emoji,
+    .Player-Team-Logo,
+    .Recap-Blessing-Team,
+    .Bulletin-Widget-ScoreTeamColorBar,
+    .Account-Section-Item-Icon,
+    .Recap-Earlsiesta-Card-Icon,
+    .PlayoffSetup-MatchupTeam-Icon,
+    .Events-List-Row.Events-List-Minor,
+    .Reorder-Spread-Card-Icon,
+    .Account-Spread-Card-Icon,
+    .TeamLogo,
+    .Recap-Decree-Content,
+    .BossFightWidget-ScoreTeamColorBar,
+    .Widget-PlayerLineName,
+    .DepthChart-Team,
+    .DepthChart-Lists-Emoji,
+    .GiftShop-Gifts-TeamLogo {
+        font-family: Open Sans, tortles, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        background: #00000000 !important;
+    }
+
+    .Standings-Team-Emoji,
+    .Standings-Team-Color,
+    .GameWidget-ScoreTeamColorBar,
+    .Leaderboard-Team-Emoji,
+    .Team-Logo,
+    .Recap-Blessing-Team,
+    .Bulletin-Widget-ScoreTeamColorBar,
+    .Account-Section-Item-Icon,
+    .Recap-Earlsiesta-Card-Icon,
+    .PlayoffSetup-MatchupTeam-Icon,
+    .Reorder-Spread-Card-Icon,
+    .Account-Spread-Card-Icon,
+    .TeamLogo,
+    .Recap-Decree-Content,
+    .BossFightWidget-ScoreTeamColorBar,
+    .DepthChart-Team,
+    .DepthChart-Lists-Emoji,
+    .GiftShop-Gifts-TeamLogo {
+        scale: 1.5;
+    }
+}
