@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      2.7.1
+@version      3.0.0
 @author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/Mynotaurus/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -38,27 +38,26 @@
     .Widget-PlayerLineName,
     .DepthChart-Team,
     .DepthChart-Lists-Emoji,
-    .GiftShop-Gifts-TeamLogo {
+    .GiftShop-Gifts-TeamLogo,
+    .Recap-Gift-Contributer {
         font-family: Open Sans, tortles, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         background: #00000000 !important;
     }
 
     .Standings-Team-Emoji,
-    .Standings-Team-Color {
+    .Standings-Team-Color,
+    .Recap-Gift-Contributer{
         scale: 1.2;
     }
     .GameWidget-ScoreTeamColorBar,
     .Leaderboard-Team-Emoji,
     .Team-Logo,
-    .Recap-Blessing-Team,
     .Bulletin-Widget-ScoreTeamColorBar,
     .Account-Section-Item-Icon,
-    .Recap-Earlsiesta-Card-Icon,
     .PlayoffSetup-MatchupTeam-Icon,
     .Reorder-Spread-Card-Icon,
     .Account-Spread-Card-Icon,
     .TeamLogo,
-    .Recap-Decree-Content,
     .BossFightWidget-ScoreTeamColorBar,
     .DepthChart-Team,
     .DepthChart-Lists-Emoji,
@@ -147,5 +146,43 @@
     }
     
     /*END OF WEATHER ICONS*/
+    
+    /*START OF GOD ICONS*/
+    .BigDeal-Icon-0{
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/peanut.png);
+        width: auto;
+        height: auto;
+    }
+    .BigDeal-Icon-1{
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/monitor.png);
+        width: auto;
+        height: auto;
+        top: 0px;
+        -webkit-animation-name: floaty;
+        animation-name: floaty;
+        -webkit-animation-duration: 4s;
+        animation-duration: 4s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate-reverse;
+    }
+    .BigDeal-Icon-2{
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/coin.png);
+        width: auto;
+        height: auto;
+    }
+    .BigDeal-Icon-4{
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/microphone.png);
+        width: auto;
+        height: auto;
+    }
+    .BigDeal-Icon-5{
+        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/crate.png);
+        width: auto;
+        height: auto;
+    }
+    /*END OF GOD ICONS*/
     
 }
