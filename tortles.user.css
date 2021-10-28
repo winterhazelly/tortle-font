@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      3.2.0
+@version      3.2.1
 @author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/Mynotaurus/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -139,10 +139,11 @@
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/reverb.png);
     }
     
+    /*SHAKING ANIMATION - UNCOMMENT TO ENABLE
     #Reverb, #Coffee, div[aria-label="Coffee 2 Weather"], div[aria-label="Coffee 3s Weather"] {
         animation: shake 0.5s;
         animation-iteration-count: infinite; 
-    }
+    }*/
     
     #Jazz {
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/jazz.png);
