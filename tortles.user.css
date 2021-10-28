@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      3.0.0
+@version      3.2.0
 @author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/Mynotaurus/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -9,12 +9,29 @@
 
 /*IF YOU ARE READING THIS YOU NEED STYLUS TO INSTALL THIS CONTENT https://github.com/openstyles/stylus*/
 
-@font-face {
-    font-family: tortles;
-    src: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/Tortles-Regular-SVG.otf);
-}
-@-moz-document domain("blaseball.com") {
+/*THIS FORCES SOME ANIMATIONS ON SO DO NOT USE IF SENSITIVE TO MOTION*/
 
+
+@-moz-document domain("blaseball.com") {
+    @font-face {
+        font-family: tortles;
+        src: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/Tortles-Regular-SVG.otf);
+    }
+    
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+    
     .Standings-Team-Emoji,
     .Standings-Team-Color,
     .GameWidget-ScoreTeamColorBar,
@@ -122,6 +139,11 @@
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/reverb.png);
     }
     
+    #Reverb, #Coffee, div[aria-label="Coffee 2 Weather"], div[aria-label="Coffee 3s Weather"] {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite; 
+    }
+    
     #Jazz {
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/jazz.png);
     }
@@ -148,12 +170,12 @@
     /*END OF WEATHER ICONS*/
     
     /*START OF GOD ICONS*/
-    .BigDeal-Icon-0{
+    .BigDeal-Icon-0, .BigDeal-Icon-One{
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/peanut.png);
         width: auto;
         height: auto;
     }
-    .BigDeal-Icon-1{
+    .BigDeal-Icon-1, .BigDeal-Icon-Two{
         content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/monitor.png);
         width: auto;
         height: auto;
