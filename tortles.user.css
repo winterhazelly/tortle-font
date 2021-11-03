@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      3.2.1
-@author       Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
-@homepageURL  https://github.com/Mynotaurus/tortle-font
+@version      4.0.0
+@author       Levi (@winterhazelly) forked from Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
+@homepageURL  https://github.com/winterhazelly/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
@@ -15,7 +15,7 @@
 @-moz-document domain("blaseball.com") {
     @font-face {
         font-family: tortles;
-        src: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/Tortles-Regular-SVG.otf);
+        src: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/Tortles-Regular-SVG.otf);
     }
     
     @keyframes shake {
@@ -56,6 +56,10 @@
     .DepthChart-Team,
     .DepthChart-Lists-Emoji,
     .GiftShop-Gifts-TeamLogo,
+    .League-Schedule-Day-Opponent,
+    .Bet-List-Placed-Bet-Details-Icon,
+    .Bet-List-MatchUps-Team-Icon,
+    .Bulletin-Item-Header,
     .Recap-Gift-Contributer {
         font-family: Open Sans, tortles, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         background: #00000000 !important;
@@ -63,7 +67,8 @@
 
     .Standings-Team-Emoji,
     .Standings-Team-Color,
-    .Recap-Gift-Contributer{
+    .Recap-Gift-Contributer,
+    .League-Schedule-Day-Opponent {
         scale: 1.2;
     }
     .GameWidget-ScoreTeamColorBar,
@@ -82,6 +87,11 @@
     .Player-Team-Emoji {
         scale: 1.5;
     }
+    .League-Schedule-Day-Opponent,
+    .Bet-List-MatchUps-Team-Icon {
+        background: #00000000 !important;
+    }
+    
     
     /*EVERYTHING BELOW IS WEATHER ICONS*/
     
@@ -92,51 +102,55 @@
     }
     
     #Coffee {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee1.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/coffee1.png);
     }
     
     #Glitter {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/glitter.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/glitter.png);
     }
     
     div[aria-label="Coffee 2 Weather"] {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee%202.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/coffee%202.png);
     }
     
     div[aria-label="Coffee 3s Weather"] {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/coffee%203.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/coffee%203.png);
     }
     
     div[aria-label="Solar Eclipse Weather"] {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/eclipse.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/eclipse.png);
     }
     
     div[aria-label="Supernova Eclipse Weather"] {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/supernova%20eclipse.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/supernova%20eclipse.png);
     }
     
     #Blooddrain {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/blooddrain.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/blooddrain.png);
     }
     
     #Flooding {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/flood.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/flood.png);
     }
     
     #Feedback {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/feedback.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/feedback.png);
     }
     
     #Peanuts {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/peanut_1.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/peanut_1.png);
     }
     
     #Birds {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/birds.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/birds.png);
     }
     
     #Reverb {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/reverb.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/reverb.png);
+    }
+
+    #Night {
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/night.png);
     }
     
     /*SHAKING ANIMATION - UNCOMMENT TO ENABLE
@@ -146,23 +160,23 @@
     }*/
     
     #Jazz {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/jazz.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/jazz.png);
     }
     
     #Salmon {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/salmon.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/salmon.png);
     }
     
     div[aria-label="Sun Two Weather"] {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/sun2.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/sun2.png);
     }
     
     div[aria-label="Black Hole Weather"] {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/hole.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/hole.png);
     }
     
     .WeatherIcon-Twirl {
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/weather/hole.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/hole.png);
         width: 38px;
         height: 30px;
         background: #00000000 !important;
@@ -172,12 +186,12 @@
     
     /*START OF GOD ICONS*/
     .BigDeal-Icon-0, .BigDeal-Icon-One{
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/peanut.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/gods/peanut.png);
         width: auto;
         height: auto;
     }
     .BigDeal-Icon-1, .BigDeal-Icon-Two{
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/monitor.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/gods/monitor.png);
         width: auto;
         height: auto;
         top: 0px;
@@ -192,17 +206,17 @@
         animation-direction: alternate-reverse;
     }
     .BigDeal-Icon-2{
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/coin.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/gods/coin.png);
         width: auto;
         height: auto;
     }
     .BigDeal-Icon-4{
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/microphone.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/gods/microphone.png);
         width: auto;
         height: auto;
     }
     .BigDeal-Icon-5{
-        content: url(https://raw.githubusercontent.com/Mynotaurus/tortle-font/main/gods/crate.png);
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/gods/crate.png);
         width: auto;
         height: auto;
     }
