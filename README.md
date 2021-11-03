@@ -1,4 +1,5 @@
-# tortle-font
-tortle font
+# Tortles style for blaseball.com
 
-original userstyle base from https://holmesmr.github.io/Blaseball-Userstyles/
+Update to tortle font and userstyle by Mynotaurus (https://github.com/Mynotaurus/tortle-font/) for the new Short Circuits UI
+
+Install here: https://userstyles.world/style/1818
