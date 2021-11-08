@@ -15,8 +15,7 @@
 @-moz-document domain("blaseball.com") {
     @font-face {
         font-family: tortles;
-        src: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/Tortles-Regular-SVG.otf);
-    }
+        src: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/Tortles-Regular-SVG.otf)}
     
     .Standings-Team-Emoji,
     .Standings-Team-Color,
@@ -169,6 +168,14 @@
     }
     
     /*END OF WEATHER ICONS*/
+
+    /* START MISC ICONS */
+
+    div[aria-label="Account"] {
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/misc/feed.png);
+    }
+
+    /* END MISC ICONS */
     
     /*START OF GOD ICONS*/
     .BigDeal-Icon-0, .BigDeal-Icon-One{
