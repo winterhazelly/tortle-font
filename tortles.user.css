@@ -11,11 +11,10 @@
 
 /*THIS FORCES SOME ANIMATIONS ON SO DO NOT USE IF SENSITIVE TO MOTION*/
 
-
 @-moz-document domain("blaseball.com") {
     @font-face {
         font-family: tortles;
-        src: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/Tortles-Regular-SVG.otf)}
+        src: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/Tortles-Regular-SVG.otf)}    
     
     .Standings-Team-Emoji,
     .Standings-Team-Color,
@@ -171,8 +170,12 @@
 
     /* START MISC ICONS */
 
-    div[aria-label="Account"] {
+    a.Navigation-Inventory {
         content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/misc/feed.png);
+        padding: 4px;
+        width: 20px;
+        background: #e383b7;
+        
     }
 
     /* END MISC ICONS */
