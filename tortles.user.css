@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Blaseball Tortles
 @namespace    mynotaurus.github
-@version      4.0.2
+@version      4.0.3
 @author       Levi (@winterhazelly) forked from Myno (https://mmm.page/myno) based on https://holmesmr.github.io/Blaseball-Userstyles/
 @homepageURL  https://github.com/winterhazelly/tortle-font
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -135,6 +135,10 @@
 
     #Night {
         content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/night.png);
+    }
+  
+    #Snow {
+        content: url(https://raw.githubusercontent.com/winterhazelly/tortle-font/main/weather/snow.png);
     }
     
     /*SHAKING ANIMATION - UNCOMMENT TO ENABLE
